@@ -67,15 +67,6 @@ export const initialSettings = {
 
 export type Settings = typeof initialSettings
 
-export const uniModals: Model[] = [
-    {
-        id: 'gemini-2.0-flash',
-        name: 'Gemini 2.0 flash',
-        provider: 'google',
-        type: 'universal'
-    }
-]
-
 export const textGenModels: Model[] = [{
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
     name: 'qwen1.5-14b-chat-awq',
